@@ -30,6 +30,11 @@ For each task:
 3. Run verifications as specified
 4. Mark as completed
 
+### Step 2.5: Simplify
+After batch tasks pass verification:
+- **Run superpowers:code-simplifier** on all modified code in the batch
+- Ensure tests still pass after simplification
+
 ### Step 3: Report
 When batch complete:
 - Show what was implemented
@@ -82,3 +87,4 @@ After all tasks complete and verified:
 - **superpowers:using-git-worktrees** - REQUIRED: Set up isolated workspace before starting
 - **superpowers:writing-plans** - Creates the plan this skill executes
 - **superpowers:finishing-a-development-branch** - Complete development after all tasks
+- **superpowers:code-simplifier** - Simplify modified code after each batch

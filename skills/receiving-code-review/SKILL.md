@@ -108,6 +108,8 @@ FOR multi-item feedback:
      - Complex fixes (refactoring, logic)
   3. Test each fix individually
   4. Verify no regressions
+  5. Run superpowers:code-simplifier on modified code
+  6. Re-verify tests pass after simplification
 ```
 
 ## When To Push Back

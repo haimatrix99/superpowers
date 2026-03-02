@@ -188,6 +188,7 @@ After green only:
 - Remove duplication
 - Improve names
 - Extract helpers
+- **Run superpowers:code-simplifier** on modified code to refine clarity, consistency, and maintainability
 
 Keep tests green. Don't add behavior.
 

@@ -35,7 +35,10 @@ Cannot proceed with merge/PR until tests pass.
 
 Stop. Don't proceed to Step 2.
 
-**If tests pass:** Continue to Step 2.
+**If tests pass:**
+- **Run superpowers:code-simplifier** on all modified code before proceeding
+- Re-verify tests pass after simplification
+- Continue to Step 2.
 
 ### Step 2: Determine Base Branch
 
@@ -198,3 +201,4 @@ git worktree remove <worktree-path>
 
 **Pairs with:**
 - **using-git-worktrees** - Cleans up worktree created by that skill
+- **superpowers:code-simplifier** - Final code refinement before merge/PR
